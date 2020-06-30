@@ -1,0 +1,170 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-29T17:16:41.328Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1072029735,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroSteps.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Acessar menu forms",
+        "description": "",
+        "id": "preencher-formulário;acessar-menu-forms",
+        "after": [
+          {
+            "result": {
+              "duration": 46106,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 340056,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que estou na tela inicial do sistema",
+            "match": {
+              "location": "CadastroSteps.que_estou_na_tela_inicial_do_sistema()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 45194,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clico no menu Forms",
+            "match": {
+              "location": "CadastroSteps.clico_no_menu_Forms()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 47555,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "tela de Forms é exibida",
+            "match": {
+              "location": "CadastroSteps.tela_de_Forms_é_exibida()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cadastro"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-29T17:16:42.486Z",
+        "before": [
+          {
+            "result": {
+              "duration": 359002004,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroSteps.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Preencher formulário de cadastro",
+        "description": "",
+        "id": "preencher-formulário;preencher-formulário-de-cadastro",
+        "after": [
+          {
+            "result": {
+              "duration": 36838,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CadastroSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "que estou na tela de formulário",
+            "match": {},
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "preencho com minhas informações \"\u003cnome\u003e\",\"\u003csobrenome\u003e\",\"\u003cemail\u003e\",\"\u003csexo\u003e\",\"\u003ccelular\u003e\",\"\u003cdata_nasc\u003e\",\"\u003csubject\u003e\",\"\u003chobbie\u003e\",\"\u003cendereco\u003e\",\"\u003cestado\u003e\",\"\u003ccidade\u003e\"",
+            "match": {},
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "clico no botão submit",
+            "match": {},
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "mensagem de confirmação de envio é exibida",
+            "match": {},
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cadastro"
+          }
+        ]
+      }
+    ],
+    "name": "Preencher Formulário",
+    "description": "Eu como usuário, gostaria de acessar o sistema e efetuar o preenchimento do formulário de cadastro.",
+    "id": "preencher-formulário",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/Cadastro.feature",
+    "tags": [
+      {
+        "name": "@cadastro",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

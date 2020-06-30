@@ -7,13 +7,22 @@ import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Então;
 import io.cucumber.java.pt.Quando;
 import managers.DriverManager;
+import org.junit.Assert;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import pages.FormsPage;
+import pages.InicialPage;
 
 public class PreencherForm {
 
-    DriverManager dm = new DriverManager();
     WebDriver driver;
+    DriverManager dm = new DriverManager();
+    InicialPage inicial;
+    FormsPage forms;
+    public TestName test = new TestName();
+
+    private Select mes;
+    private Select ano;
 
 
     @Before
@@ -25,11 +34,12 @@ public class PreencherForm {
         driver.manage().window().maximize();
 
     }
-
+@Test
     /* Acessar Formulario */
 
     @Dado("que estou na tela inicial do sistema")
     public void que_estou_na_tela_inicial_do_sistema() {
+    Assert.assertEquals(inicial.EnderecoLink(),"https://demoqa.com/");
     }
 
     @Quando("clico no menu Forms")
@@ -40,12 +50,14 @@ public class PreencherForm {
 
     @Então("tela de Forms é exibida")
     public void tela_de_Forms_é_exibida() {
+        Assert.assertEquals(forms.textoForms(),"Forms");git
     }
 
     /* Preencher Formulario */
 
     @Dado("que estou na tela de formulário")
     public void que_estou_na_tela_de_formulário() {
+        Assert.assertEquals(forms.txtFormulario(),"Student Registration Form");
     }
 
     @Quando("preencho com minhas informações {string},{string},{string},{string},{string},{string},{string},{string},{string},{string},{string}")
@@ -54,10 +66,12 @@ public class PreencherForm {
 
     @Quando("clico no botão submit")
     public void clico_no_botão_submit() {
+        forms.btnSubmit().click();
     }
 
     @Então("mensagem de confirmação de envio é exibida")
     public void mensagem_de_confirmação_de_envio_é_exibida() {
+        Assert.assertEquals("Thanks for submitting the form", forms.validaMsg());
     }
 
     @After

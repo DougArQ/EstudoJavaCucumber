@@ -13,6 +13,9 @@ public class InicialPage {
 
     WebDriver driver;
 
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/header[1]/a[1]")
+    WebElement link;
+
     @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]")
     WebElement btnElements;
 
@@ -50,4 +53,8 @@ public class InicialPage {
 
     }
 
+    public string EnderecoLink(){
+        EnderecoLink = link.getText();
+        return EnderecoLink;
+    }
 }

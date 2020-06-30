@@ -9,13 +9,19 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
-import com.sun.org.apache.xml.internal.serializer.utils.MsgKey;
+
 
 public class FormsPage {
 
     public FormsPage(WebDriver driver) {
         PageFactory.initElements(driver, this);
     }
+
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]")
+    WebElement txtForms;
+
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/h5[1]")
+    WebElement txtFormulario;
 
     @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[1]/span[1]")
     WebElement btnPraticeForms;
@@ -92,6 +98,18 @@ public class FormsPage {
 
     @FindBy(id = "closeLargeModal")
     WebElement btnClose;
+
+    public string textoForms(){
+        TextoForms = txtForms.getText();
+        return TextoForms;
+    }
+
+    public string txtFormulario(){
+        TextoFormulario = txtFormulario.getText();
+        return TextoFormulario;
+    }
+
+
 
     public WebElement prencheListaState() {
         return prencheListaState;

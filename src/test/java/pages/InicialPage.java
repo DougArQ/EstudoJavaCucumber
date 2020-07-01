@@ -13,48 +13,46 @@ public class InicialPage {
 
     WebDriver driver;
 
-    @FindBy(xpath = "/html[1]/body[1]/div[1]/header[1]/a[1]")
-    WebElement link;
+    @FindBy(xpath = "//span [text()='© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.']")
+    WebElement telaInicial;
+
+    public WebElement telaInicial() {
+        return telaInicial;
+    }
 
     @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]")
     WebElement btnElements;
-
-    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]")
-    WebElement btnForms;
-
-    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]")
-    WebElement btnAlerts;
-
-    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]")
-    WebElement btnWidgets;
-
-    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]")
-    WebElement btnInteractions;
-
 
     public WebElement btnElements() {
         return btnElements;
     }
 
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]")
+    WebElement btnForms;
+
     public WebElement btnForms() {
         return btnForms;
     }
+
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[3]/div[1]/div[1]")
+    WebElement btnAlerts;
 
     public WebElement btnAlerts() {
         return btnAlerts;
     }
 
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[4]/div[1]")
+    WebElement btnWidgets;
+
     public WebElement btnWidgets() {
         return btnWidgets;
     }
 
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[5]/div[1]")
+    WebElement btnInteractions;
+
     public WebElement btnInteractions() {
         return btnInteractions;
-
     }
 
-    public string EnderecoLink(){
-        EnderecoLink = link.getText();
-        return EnderecoLink;
-    }
 }

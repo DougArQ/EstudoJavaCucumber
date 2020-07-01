@@ -3,30 +3,30 @@
     "line": 5,
     "elements": [
       {
-        "start_timestamp": "2020-06-29T17:16:41.328Z",
+        "start_timestamp": "2020-07-01T12:39:38.153Z",
         "before": [
           {
             "result": {
-              "duration": 1072029735,
+              "duration": 8237349115,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroSteps.setUp()"
+              "location": "PreencherForm.setUp()"
             }
           }
         ],
-        "line": 8,
+        "line": 9,
         "name": "Acessar menu forms",
         "description": "",
         "id": "preencher-formulário;acessar-menu-forms",
         "after": [
           {
             "result": {
-              "duration": 46106,
+              "duration": 72448309,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroSteps.tearDown()"
+              "location": "PreencherForm.tearDown()"
             }
           }
         ],
@@ -35,37 +35,37 @@
         "steps": [
           {
             "result": {
-              "duration": 340056,
+              "duration": 49142057,
               "status": "passed"
             },
-            "line": 9,
+            "line": 10,
             "name": "que estou na tela inicial do sistema",
             "match": {
-              "location": "CadastroSteps.que_estou_na_tela_inicial_do_sistema()"
+              "location": "PreencherForm.que_estou_na_tela_inicial_do_sistema()"
             },
             "keyword": "Dado "
           },
           {
             "result": {
-              "duration": 45194,
+              "duration": 155031551,
               "status": "passed"
             },
-            "line": 10,
+            "line": 11,
             "name": "clico no menu Forms",
             "match": {
-              "location": "CadastroSteps.clico_no_menu_Forms()"
+              "location": "PreencherForm.clico_no_menu_Forms()"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 47555,
+              "duration": 1172045933,
               "status": "passed"
             },
-            "line": 11,
+            "line": 12,
             "name": "tela de Forms é exibida",
             "match": {
-              "location": "CadastroSteps.tela_de_Forms_é_exibida()"
+              "location": "PreencherForm.tela_de_Forms_é_exibida()"
             },
             "keyword": "Então "
           }
@@ -77,30 +77,30 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-29T17:16:42.486Z",
+        "start_timestamp": "2020-07-01T12:39:47.869Z",
         "before": [
           {
             "result": {
-              "duration": 359002004,
+              "duration": 6851815782,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroSteps.setUp()"
+              "location": "PreencherForm.setUp()"
             }
           }
         ],
-        "line": 13,
+        "line": 14,
         "name": "Preencher formulário de cadastro",
         "description": "",
         "id": "preencher-formulário;preencher-formulário-de-cadastro",
         "after": [
           {
             "result": {
-              "duration": 36838,
+              "duration": 72424664,
               "status": "passed"
             },
             "match": {
-              "location": "CadastroSteps.tearDown()"
+              "location": "PreencherForm.tearDown()"
             }
           }
         ],
@@ -111,7 +111,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 14,
+            "line": 15,
             "name": "que estou na tela de formulário",
             "match": {},
             "keyword": "Dado "
@@ -120,8 +120,8 @@
             "result": {
               "status": "undefined"
             },
-            "line": 15,
-            "name": "preencho com minhas informações \"\u003cnome\u003e\",\"\u003csobrenome\u003e\",\"\u003cemail\u003e\",\"\u003csexo\u003e\",\"\u003ccelular\u003e\",\"\u003cdata_nasc\u003e\",\"\u003csubject\u003e\",\"\u003chobbie\u003e\",\"\u003cendereco\u003e\",\"\u003cestado\u003e\",\"\u003ccidade\u003e\"",
+            "line": 16,
+            "name": "preencho com minhas informações \"Maycon\",\"Sozua\",\"maycon.souza@gmail.com\",\"male\",\"16981373131\",\"\u003cdata_nasc\u003e\",\"English\",\"Sports\",\"Rua dos Testes, 123\",\"NCR\",\"Noida\"",
             "match": {},
             "keyword": "Quando "
           },
@@ -129,7 +129,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 16,
+            "line": 17,
             "name": "clico no botão submit",
             "match": {},
             "keyword": "E "
@@ -138,7 +138,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 17,
+            "line": 18,
             "name": "mensagem de confirmação de envio é exibida",
             "match": {},
             "keyword": "Então "
@@ -152,7 +152,7 @@
       }
     ],
     "name": "Preencher Formulário",
-    "description": "Eu como usuário, gostaria de acessar o sistema e efetuar o preenchimento do formulário de cadastro.",
+    "description": "  Eu como usuário, gostaria de acessar o sistema e efetuar o preenchimento do formulário de cadastro.",
     "id": "preencher-formulário",
     "keyword": "Funcionalidade",
     "uri": "file:src/test/resources/features/Cadastro.feature",

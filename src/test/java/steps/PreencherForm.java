@@ -50,7 +50,7 @@ public class PreencherForm {
 
     @Então("tela de Forms é exibida")
     public void tela_de_Forms_é_exibida() {
-        Assert.assertEquals(forms.textoForms(),"Forms");git
+        Assert.assertEquals(forms.textoForms(),"Forms");
     }
 
     /* Preencher Formulario */

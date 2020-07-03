@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="901e84b3-57e8-4923-8a9b-42cd007602b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/action/Action.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/driver/chromedriver_U" beforeDir="false" afterPath="$PROJECT_DIR$/driver/chromedriver_U" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FormsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FormsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/InicialPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/InicialPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/PreencherForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/PreencherForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Cadastro.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Cadastro.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/EstudoCucumberJava.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/EstudoCucumberJava.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Cadastro.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Cadastro.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/managers/DriverManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/FormsPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runner/Runner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/suport/Screenshot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/suporte/Generator.class" beforeDir="false" />
-    </list>
+    <list default="true" id="901e84b3-57e8-4923-8a9b-42cd007602b6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,25 +108,29 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2686" y="297" width="424" height="484" key="FileChooserDialogImpl/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593605171226" />
-    <state width="1827" height="323" key="GridCell.Tab.0.bottom" timestamp="1593605297630">
+    <state width="1827" height="323" key="GridCell.Tab.0.bottom" timestamp="1593607493007">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1827" height="323" key="GridCell.Tab.0.bottom/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593605297630" />
-    <state width="1827" height="323" key="GridCell.Tab.0.center" timestamp="1593605297630">
+    <state width="1827" height="323" key="GridCell.Tab.0.bottom/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593607493007" />
+    <state width="1827" height="323" key="GridCell.Tab.0.center" timestamp="1593607493007">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1827" height="323" key="GridCell.Tab.0.center/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593605297630" />
-    <state width="1827" height="323" key="GridCell.Tab.0.left" timestamp="1593605297630">
+    <state width="1827" height="323" key="GridCell.Tab.0.center/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593607493007" />
+    <state width="1827" height="323" key="GridCell.Tab.0.left" timestamp="1593607493007">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1827" height="323" key="GridCell.Tab.0.left/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593605297630" />
-    <state width="1827" height="323" key="GridCell.Tab.0.right" timestamp="1593605297630">
+    <state width="1827" height="323" key="GridCell.Tab.0.left/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593607493007" />
+    <state width="1827" height="323" key="GridCell.Tab.0.right" timestamp="1593607493007">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1827" height="323" key="GridCell.Tab.0.right/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593605297630" />
+    <state width="1827" height="323" key="GridCell.Tab.0.right/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593607493007" />
     <state x="2392" y="174" width="1024" height="845" key="SettingsEditor" timestamp="1593607123720">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2392" y="174" width="1024" height="845" key="SettingsEditor/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593607123720" />
+    <state x="2567" y="246" key="run.anything.popup" timestamp="1593607206965">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2567" y="246" key="run.anything.popup/47.27.1873.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593607206965" />
   </component>
 </project>

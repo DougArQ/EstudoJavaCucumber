@@ -57,7 +57,7 @@ public class PreencherForm {
 
     @Dado("que estou na tela de formulário")
     public void que_estou_na_tela_de_formulário() {
-        Assert.assertEquals(forms.txtFormulario(),"Student Registration Form");
+        Assert.assertEquals(forms.txtFormulario(),"Student Registration Form");;
     }
 
     @Quando("preencho com minhas informações {string},{string},{string},{string},{string},{string},{string},{string},{string},{string},{string}")
